@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>VR Resume</title>
+        <script src="https://rawgit.com/ngokevin/aframe/animationbugless/dist/aframe-master.min.js"></script>
+        <script src="https://unpkg.com/aframe-animation-component@4.0.0-beta8/dist/aframe-animation-component.min.js"></script>
+        <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+        <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+    </head>
+    <body>
+        <a-scene environment="preset: egypt; fog: 0.8" stats light="defaultLightsEnabled: false">
+         
+            <a-assets>
+            </a-assets>
+
+            <a-entity light="type: point; color: white; intensity: 1" position="-4 7 -5"></a-entity> 
+            <a-entity light="type: ambient; color: white; intensity: 0.4"></a-entity> 
+
+            <a-entity position="0 1 0">
+                    <a-camera>
+                        <a-cursor geometry="primitive: ring; radiusOuter: 0.05; radiusInner: 0.03" material="color: firebrick"></a-cursor>
+                    </a-camera>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>

@@ -1,2 +1,7 @@
-# vr-text-content-explorer
-An engine based on aframevr that will let the user explore rooms with images/text/video/objects/sounds
+# vr-resume
+
+An engine that will take a json-resume and attempt to display it in a virtual reality environment.
+
+# objectives
+
+Take any valid json-resume and generate a bright, readable, and animated world around it.
